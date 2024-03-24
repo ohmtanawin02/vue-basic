@@ -1,7 +1,9 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="align-center text-center fill-height">
-      <v-img height="300" src="@/assets/logo.svg" />
+      <v-img
+        height="300"
+        src="@/assets/logo.svg" />
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
@@ -16,9 +18,11 @@
             min-width="164"
             rel="noopener noreferrer"
             target="_blank"
-            variant="text"
-          >
-            <v-icon icon="mdi-view-dashboard" size="large" start />
+            variant="text">
+            <v-icon
+              icon="mdi-view-dashboard"
+              size="large"
+              start />
 
             Components
           </v-btn>
@@ -32,9 +36,11 @@
             rel="noopener noreferrer"
             size="x-large"
             target="_blank"
-            variant="flat"
-          >
-            <v-icon icon="mdi-speedometer" size="large" start />
+            variant="flat">
+            <v-icon
+              icon="mdi-speedometer"
+              size="large"
+              start />
 
             Get Started ja
           </v-btn>
@@ -46,9 +52,11 @@
             min-width="164"
             rel="noopener noreferrer"
             target="_blank"
-            variant="text"
-          >
-            <v-icon icon="mdi-account-group" size="large" start />
+            variant="text">
+            <v-icon
+              icon="mdi-account-group"
+              size="large"
+              start />
 
             Community
           </v-btn>
@@ -59,7 +67,8 @@
   </v-container>
 </template>
 
-<script setup>
-import { ref } from "vue";
-const count = ref(0);
+<script>
+export default {
+  name: 'HomeWorld'
+}
 </script>
