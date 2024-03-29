@@ -1,0 +1,932 @@
+{
+  "data": [
+    {
+      "name": "AFGHANISTAN",
+      "prefix": ["+93"]
+    },
+    {
+      "name": "ALBANIA",
+      "prefix": ["+355"]
+    },
+    {
+      "name": "ALGERIA",
+      "prefix": ["+213"]
+    },
+    {
+      "name": "AMERICAN SAMOA",
+      "prefix": ["+1", "+684"]
+    },
+    {
+      "name": "ANDORRA",
+      "prefix": ["+376"]
+    },
+    {
+      "name": "ANGOLA",
+      "prefix": ["+244"]
+    },
+    {
+      "name": "ANGUILLA",
+      "prefix": ["+1", "+264"]
+    },
+    {
+      "name": "ANTIGUA AND BARBUDA",
+      "prefix": ["+1", "+268"]
+    },
+    {
+      "name": "ARGENTINA",
+      "prefix": ["+54"]
+    },
+    {
+      "name": "ARMENIA",
+      "prefix": ["+374"]
+    },
+    {
+      "name": "ARTSAKH",
+      "prefix": ["+374", "+47", "+97"]
+    },
+    {
+      "name": "ARUBA",
+      "prefix": ["+297"]
+    },
+    {
+      "name": "ASCENSION",
+      "prefix": ["+247"]
+    },
+    {
+      "name": "AUSTRALIA",
+      "prefix": ["+61"]
+    },
+    {
+      "name": "AUSTRIA",
+      "prefix": ["+43"]
+    },
+    {
+      "name": "AZERBAIJAN",
+      "prefix": ["+994"]
+    },
+    {
+      "name": "BAHAMAS",
+      "prefix": ["+1", "+242"]
+    },
+    {
+      "name": "BAHRAIN",
+      "prefix": ["+973"]
+    },
+    {
+      "name": "BANGLADESH",
+      "prefix": ["+880"]
+    },
+    {
+      "name": "BARBADOS",
+      "prefix": ["+1", "+246"]
+    },
+    {
+      "name": "BELARUS",
+      "prefix": ["+375"]
+    },
+    {
+      "name": "BELGIUM",
+      "prefix": ["+32"]
+    },
+    {
+      "name": "BELIZE",
+      "prefix": ["+501"]
+    },
+    {
+      "name": "BENIN",
+      "prefix": ["+229"]
+    },
+    {
+      "name": "BERMUDA",
+      "prefix": ["+1", "+441"]
+    },
+    {
+      "name": "BHUTAN",
+      "prefix": ["+975"]
+    },
+    {
+      "name": "BOLIVIA",
+      "prefix": ["+591"]
+    },
+    {
+      "name": "BONAIRE",
+      "prefix": ["+599", "+7"]
+    },
+    {
+      "name": "BOSNIA AND HERZEGOVINA",
+      "prefix": ["+387"]
+    },
+    {
+      "name": "BOTSWANA",
+      "prefix": ["+267"]
+    },
+    {
+      "name": "BRAZIL",
+      "prefix": ["+55"]
+    },
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "prefix": ["+1", "+284"]
+    },
+    {
+      "name": "BRUNEI DARUSSALAM",
+      "prefix": ["+673"]
+    },
+    {
+      "name": "BULGARIA",
+      "prefix": ["+359"]
+    },
+    {
+      "name": "BURKINA FASO",
+      "prefix": ["+226"]
+    },
+    {
+      "name": "BURUNDI",
+      "prefix": ["+257"]
+    },
+    {
+      "name": "CAMBODIA",
+      "prefix": ["+855"]
+    },
+    {
+      "name": "CAMEROON",
+      "prefix": ["+237"]
+    },
+    {
+      "name": "CANADA",
+      "prefix": ["+1"]
+    },
+    {
+      "name": "CAPE VERDE",
+      "prefix": ["+238"]
+    },
+    {
+      "name": "CAYMAN ISLANDS",
+      "prefix": ["+1", "+345"]
+    },
+    {
+      "name": "CENTRAL AFRICAN REPUBLIC",
+      "prefix": ["+236"]
+    },
+    {
+      "name": "CHAD",
+      "prefix": ["+235"]
+    },
+    {
+      "name": "CHILE",
+      "prefix": ["+56"]
+    },
+    {
+      "name": "CHINA",
+      "prefix": ["+86"]
+    },
+    {
+      "name": "COLOMBIA",
+      "prefix": ["+57"]
+    },
+    {
+      "name": "COMOROS",
+      "prefix": ["+269"]
+    },
+    {
+      "name": "CONGO",
+      "prefix": ["+242"]
+    },
+    {
+      "name": "COOK ISLANDS",
+      "prefix": ["+682"]
+    },
+    {
+      "name": "COSTA RICA",
+      "prefix": ["+506"]
+    },
+    {
+      "name": "CÔTE D'IVOIRE",
+      "prefix": ["+225"]
+    },
+    {
+      "name": "CROATIA",
+      "prefix": ["+385"]
+    },
+    {
+      "name": "CUBA",
+      "prefix": ["+53"]
+    },
+    {
+      "name": "CURAÇAO",
+      "prefix": ["+599", "+9"]
+    },
+    {
+      "name": "CYPRUS",
+      "prefix": ["+357"]
+    },
+    {
+      "name": "CZECH REPUBLIC",
+      "prefix": ["+420"]
+    },
+    {
+      "name": "DEM. PEOPLE'S REP. OF KOREA",
+      "prefix": ["+850"]
+    },
+    {
+      "name": "DEM. REP. OF THE CONGO",
+      "prefix": ["+243"]
+    },
+    {
+      "name": "DENMARK",
+      "prefix": ["+45"]
+    },
+    {
+      "name": "DIEGO GARCIA",
+      "prefix": ["+246"]
+    },
+    {
+      "name": "DJIBOUTI",
+      "prefix": ["+253"]
+    },
+    {
+      "name": "DOMINICA",
+      "prefix": ["+1", "+767"]
+    },
+    {
+      "name": "DOMINICAN REPUBLIC",
+      "prefix": ["+1", "+809", "+829"]
+    },
+    {
+      "name": "ECUADOR",
+      "prefix": ["+593"]
+    },
+    {
+      "name": "EGYPT",
+      "prefix": ["+20"]
+    },
+    {
+      "name": "EL SALVADOR",
+      "prefix": ["+503"]
+    },
+    {
+      "name": "EQUATORIAL GUINEA",
+      "prefix": ["+240"]
+    },
+    {
+      "name": "ERITREA",
+      "prefix": ["+291"]
+    },
+    {
+      "name": "ESTONIA",
+      "prefix": ["+372"]
+    },
+    {
+      "name": "ETHIOPIA",
+      "prefix": ["+251"]
+    },
+    {
+      "name": "FALKLAND ISLANDS",
+      "prefix": ["+500"]
+    },
+    {
+      "name": "FAROE ISLANDS",
+      "prefix": ["+298"]
+    },
+    {
+      "name": "FIJI",
+      "prefix": ["+679"]
+    },
+    {
+      "name": "FINLAND",
+      "prefix": ["+358"]
+    },
+    {
+      "name": "FRANCE",
+      "prefix": ["+33"]
+    },
+    {
+      "name": "FRENCH DEP. AND TERRITORIES IN THE INDIAN OCEAN",
+      "prefix": ["+262"]
+    },
+    {
+      "name": "FRENCH GUIANA",
+      "prefix": ["+594"]
+    },
+    {
+      "name": "FRENCH POLYNESIA",
+      "prefix": ["+689"]
+    },
+    {
+      "name": "GABON",
+      "prefix": ["+241"]
+    },
+    {
+      "name": "GAMBIA",
+      "prefix": ["+220"]
+    },
+    {
+      "name": "GEORGIA",
+      "prefix": ["+995"]
+    },
+    {
+      "name": "GERMANY",
+      "prefix": ["+49"]
+    },
+    {
+      "name": "GHANA",
+      "prefix": ["+233"]
+    },
+    {
+      "name": "GIBRALTAR",
+      "prefix": ["+350"]
+    },
+    {
+      "name": "GREECE",
+      "prefix": ["+30"]
+    },
+    {
+      "name": "GREENLAND",
+      "prefix": ["+299"]
+    },
+    {
+      "name": "GRENADA",
+      "prefix": ["+1", "+473"]
+    },
+    {
+      "name": "GUADELOUPE",
+      "prefix": ["+590"]
+    },
+    {
+      "name": "GUAM",
+      "prefix": ["+1", "+671"]
+    },
+    {
+      "name": "GUATEMALA",
+      "prefix": ["+502"]
+    },
+    {
+      "name": "GUINEA",
+      "prefix": ["+224"]
+    },
+    {
+      "name": "GUINEA-BISSAU",
+      "prefix": ["+245"]
+    },
+    {
+      "name": "GUYANA",
+      "prefix": ["+592"]
+    },
+    {
+      "name": "HAITI",
+      "prefix": ["+509"]
+    },
+    {
+      "name": "HONDURAS",
+      "prefix": ["+504"]
+    },
+    {
+      "name": "HONG KONG",
+      "prefix": ["+852"]
+    },
+    {
+      "name": "HUNGARY",
+      "prefix": ["+36"]
+    },
+    {
+      "name": "ICELAND",
+      "prefix": ["+354"]
+    },
+    {
+      "name": "INDIA",
+      "prefix": ["+91"]
+    },
+    {
+      "name": "INDONESIA",
+      "prefix": ["+62"]
+    },
+    {
+      "name": "IRAN",
+      "prefix": ["+98"]
+    },
+    {
+      "name": "IRAQ",
+      "prefix": ["+964"]
+    },
+    {
+      "name": "IRELAND",
+      "prefix": ["+353"]
+    },
+    {
+      "name": "ISRAEL",
+      "prefix": ["+972"]
+    },
+    {
+      "name": "ITALY",
+      "prefix": ["+39"]
+    },
+    {
+      "name": "JAMAICA",
+      "prefix": ["+1", "+658", "+876"]
+    },
+    {
+      "name": "JAPAN",
+      "prefix": ["+81"]
+    },
+    {
+      "name": "JORDAN",
+      "prefix": ["+962"]
+    },
+    {
+      "name": "KAZAKHSTAN",
+      "prefix": ["+7"]
+    },
+    {
+      "name": "KENYA",
+      "prefix": ["+254"]
+    },
+    {
+      "name": "KIRIBATI",
+      "prefix": ["+686"]
+    },
+    {
+      "name": "KOREA, NORTH",
+      "prefix": ["+850"]
+    },
+    {
+      "name": "KOREA, SOUTH",
+      "prefix": ["+82"]
+    },
+    {
+      "name": "KUWAIT",
+      "prefix": ["+965"]
+    },
+    {
+      "name": "KYRGYZSTAN",
+      "prefix": ["+996"]
+    },
+    {
+      "name": "LAOS",
+      "prefix": ["+856"]
+    },
+    {
+      "name": "LATVIA",
+      "prefix": ["+371"]
+    },
+    {
+      "name": "LEBANON",
+      "prefix": ["+961"]
+    },
+    {
+      "name": "LESOTHO",
+      "prefix": ["+266"]
+    },
+    {
+      "name": "LIBERIA",
+      "prefix": ["+231"]
+    },
+    {
+      "name": "LIBYA",
+      "prefix": ["+218"]
+    },
+    {
+      "name": "LIECHTENSTEIN",
+      "prefix": ["+423"]
+    },
+    {
+      "name": "LITHUANIA",
+      "prefix": ["+370"]
+    },
+    {
+      "name": "LUXEMBOURG",
+      "prefix": ["+352"]
+    },
+    {
+      "name": "MACAU",
+      "prefix": ["+853"]
+    },
+    {
+      "name": "MADAGASCAR",
+      "prefix": ["+261"]
+    },
+    {
+      "name": "MALAWI",
+      "prefix": ["+265"]
+    },
+    {
+      "name": "MALAYSIA",
+      "prefix": ["+60"]
+    },
+    {
+      "name": "MALDIVES",
+      "prefix": ["+960"]
+    },
+    {
+      "name": "MALI",
+      "prefix": ["+223"]
+    },
+    {
+      "name": "MALTA",
+      "prefix": ["+356"]
+    },
+    {
+      "name": "MARSHALL ISLANDS",
+      "prefix": ["+692"]
+    },
+    {
+      "name": "MARTINIQUE",
+      "prefix": ["+596"]
+    },
+    {
+      "name": "MAURITANIA",
+      "prefix": ["+222"]
+    },
+    {
+      "name": "MAURITIUS",
+      "prefix": ["+230"]
+    },
+    {
+      "name": "MEXICO",
+      "prefix": ["+52"]
+    },
+    {
+      "name": "MICRONESIA",
+      "prefix": "6+91"
+    },
+    {
+      "name": "MOLDOVA",
+      "prefix": ["+373"]
+    },
+    {
+      "name": "MONACO",
+      "prefix": ["+377"]
+    },
+    {
+      "name": "MONGOLIA",
+      "prefix": ["+976"]
+    },
+    {
+      "name": "MONTENEGRO",
+      "prefix": ["+382"]
+    },
+    {
+      "name": "MONTSERRAT",
+      "prefix": ["+1", "+664"]
+    },
+    {
+      "name": "MOROCCO",
+      "prefix": ["+212"]
+    },
+    {
+      "name": "MOZAMBIQUE",
+      "prefix": ["+258"]
+    },
+    {
+      "name": "MYANMAR",
+      "prefix": ["+95"]
+    },
+    {
+      "name": "NAMIBIA",
+      "prefix": ["+264"]
+    },
+    {
+      "name": "NAURU",
+      "prefix": ["+674"]
+    },
+    {
+      "name": "NEPAL",
+      "prefix": ["+977"]
+    },
+    {
+      "name": "NETHERLANDS",
+      "prefix": ["+31"]
+    },
+    {
+      "name": "NEW CALEDONIA",
+      "prefix": ["+687"]
+    },
+    {
+      "name": "NEW ZEALAND",
+      "prefix": ["+64"]
+    },
+    {
+      "name": "NICARAGUA",
+      "prefix": ["+505"]
+    },
+    {
+      "name": "NIGER",
+      "prefix": ["+227"]
+    },
+    {
+      "name": "NIGERIA",
+      "prefix": ["+234"]
+    },
+    {
+      "name": "NIUE",
+      "prefix": ["+683"]
+    },
+    {
+      "name": "NORTHERN MARIANA",
+      "prefix": ["+1", "+670"]
+    },
+    {
+      "name": "NORWAY",
+      "prefix": ["+47"]
+    },
+    {
+      "name": "OMAN",
+      "prefix": ["+968"]
+    },
+    {
+      "name": "PAKISTAN",
+      "prefix": ["+92"]
+    },
+    {
+      "name": "PALAU",
+      "prefix": ["+680"]
+    },
+    {
+      "name": "PANAMA",
+      "prefix": ["+507"]
+    },
+    {
+      "name": "PAPUA NEW GUINEA",
+      "prefix": ["+675"]
+    },
+    {
+      "name": "PARAGUAY",
+      "prefix": ["+595"]
+    },
+    {
+      "name": "PERU",
+      "prefix": ["+51"]
+    },
+    {
+      "name": "PHILIPPINES",
+      "prefix": ["+63"]
+    },
+    {
+      "name": "POLAND",
+      "prefix": ["+48"]
+    },
+    {
+      "name": "PORTUGAL",
+      "prefix": ["+351"]
+    },
+    {
+      "name": "PUERTO RICO",
+      "prefix": ["+1", "+787", "+939"]
+    },
+    {
+      "name": "QATAR",
+      "prefix": ["+974"]
+    },
+    {
+      "name": "ROMANIA",
+      "prefix": ["+40"]
+    },
+    {
+      "name": "RUSSIA",
+      "prefix": ["+7"]
+    },
+    {
+      "name": "RWANDA",
+      "prefix": ["+250"]
+    },
+    {
+      "name": "SAINT HELENA",
+      "prefix": ["+290"]
+    },
+    {
+      "name": "SAINT KITTS AND NEVIS",
+      "prefix": ["+1", "+869"]
+    },
+    {
+      "name": "SAINT LUCIA",
+      "prefix": ["+1", "758"]
+    },
+    {
+      "name": "SAINT PIERRE AND MIQUELON",
+      "prefix": ["+508"]
+    },
+    {
+      "name": "SAINT VINCENT AND THE GRENADINES",
+      "prefix": ["+1", "784"]
+    },
+    {
+      "name": "SAMOA",
+      "prefix": ["+685"]
+    },
+    {
+      "name": "SAN MARINO",
+      "prefix": ["+378"]
+    },
+    {
+      "name": "SÃO TOMÉ AND PRÍNCIPE",
+      "prefix": ["+239"]
+    },
+    {
+      "name": "SAUDI ARABIA",
+      "prefix": ["+966"]
+    },
+    {
+      "name": "SENEGAL",
+      "prefix": ["+221"]
+    },
+    {
+      "name": "SERBIA",
+      "prefix": ["+381"]
+    },
+    {
+      "name": "SEYCHELLES",
+      "prefix": ["+248"]
+    },
+    {
+      "name": "SIERRA LEONE",
+      "prefix": ["+232"]
+    },
+    {
+      "name": "SINGAPORE",
+      "prefix": ["+65"]
+    },
+    {
+      "name": "SINT MAARTEN (NETHERLANDS)",
+      "prefix": ["+1", "+721"]
+    },
+    {
+      "name": "SLOVAKIA",
+      "prefix": ["+421"]
+    },
+    {
+      "name": "SLOVENIA",
+      "prefix": ["+386"]
+    },
+    {
+      "name": "SOLOMON ISLANDS",
+      "prefix": ["+677"]
+    },
+    {
+      "name": "SOMALIA",
+      "prefix": ["+252"]
+    },
+    {
+      "name": "SOUTH AFRICA",
+      "prefix": ["+27"]
+    },
+    {
+      "name": "SOUTH SUDAN",
+      "prefix": ["+211"]
+    },
+    {
+      "name": "SPAIN",
+      "prefix": ["+34"]
+    },
+    {
+      "name": "SRI LANKA",
+      "prefix": ["+94"]
+    },
+    {
+      "name": "SUDAN",
+      "prefix": ["+249"]
+    },
+    {
+      "name": "SURINAME",
+      "prefix": ["+597"]
+    },
+    {
+      "name": "SWAZILAND",
+      "prefix": ["+268"]
+    },
+    {
+      "name": "SWEDEN",
+      "prefix": ["+46"]
+    },
+    {
+      "name": "SWITZERLAND",
+      "prefix": ["+41"]
+    },
+    {
+      "name": "SYRIA",
+      "prefix": ["+963"]
+    },
+    {
+      "name": "TAIWAN",
+      "prefix": ["+886"]
+    },
+    {
+      "name": "TAJIKISTAN",
+      "prefix": ["+992"]
+    },
+    {
+      "name": "TANZANIA",
+      "prefix": ["+255"]
+    },
+    {
+      "name": "THAILAND",
+      "prefix": ["+66"]
+    },
+    {
+      "name": "THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA",
+      "prefix": ["+389"]
+    },
+    {
+      "name": "TIMOR-LESTE",
+      "prefix": ["+670"]
+    },
+    {
+      "name": "TOGO",
+      "prefix": ["+228"]
+    },
+    {
+      "name": "TOKELAU",
+      "prefix": ["+690"]
+    },
+    {
+      "name": "TONGA",
+      "prefix": ["+676"]
+    },
+    {
+      "name": "TRINIDAD AND TOBAGO",
+      "prefix": ["+1", "+868"]
+    },
+    {
+      "name": "TUNISIA",
+      "prefix": ["+216"]
+    },
+    {
+      "name": "TURKEY",
+      "prefix": ["+90"]
+    },
+    {
+      "name": "TURKMENISTAN",
+      "prefix": ["+993"]
+    },
+    {
+      "name": "TURKS AND CAICOS ISLANDS",
+      "prefix": ["+1", "+649"]
+    },
+    {
+      "name": "TUVALU",
+      "prefix": ["+688"]
+    },
+    {
+      "name": "UGANDA",
+      "prefix": ["+256"]
+    },
+    {
+      "name": "UKRAINE",
+      "prefix": ["+380"]
+    },
+    {
+      "name": "UNITED ARAB EMIRATES",
+      "prefix": ["+971"]
+    },
+    {
+      "name": "UNITED KINGDOM",
+      "prefix": ["+44"]
+    },
+    {
+      "name": "UNITED STATES",
+      "prefix": ["+1"]
+    },
+    {
+      "name": "URUGUAY",
+      "prefix": ["+598"]
+    },
+    {
+      "name": "US VIRGIN ISLANDS",
+      "prefix": ["+1", "+340"]
+    },
+    {
+      "name": "UZBEKISTAN",
+      "prefix": ["+998"]
+    },
+    {
+      "name": "VANUATU",
+      "prefix": ["+678"]
+    },
+    {
+      "name": "VATICAN",
+      "prefix": "3+9"
+    },
+    {
+      "name": "VENEZUELA",
+      "prefix": ["+58"]
+    },
+    {
+      "name": "VIETNAM",
+      "prefix": ["+84"]
+    },
+    {
+      "name": "WALLIS AND FUTUNA",
+      "prefix": ["+681"]
+    },
+    {
+      "name": "YEMEN",
+      "prefix": ["+967"]
+    },
+    {
+      "name": "ZAMBIA",
+      "prefix": ["+260"]
+    },
+    {
+      "name": "ZIMBABWE",
+      "prefix": ["+263"]
+    }
+  ]
+}
