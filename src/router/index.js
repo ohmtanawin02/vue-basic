@@ -1,26 +1,43 @@
-// Composables
+import Home from '@/views/Home.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import ProductCategory from './modules/product-category'
+import { getAuthDecode } from '@/utils/auth'
+import Auth from './modules/auth'
+// import ProductMock from './modules/product-mock'
+// import Auth from './modules/auth'
 
 const routes = [
   {
     path: '/',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'Home',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue')
-      }
-    ]
+    name: 'Home',
+    component: Home
+  },
+  Auth,
+  ProductCategory,
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('@/views/error/PageNotFound.vue'),
+    meta: {
+      layout: 'Blank'
+    }
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  scrollBehavior() {
+    return { top: 0 }
+  },
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  const data = getAuthDecode()
+  if (to.name === 'Login' && data) {
+    next({ name: 'ProductCategoriesList' })
+  } else {
+    next()
+  }
+})
 export default router

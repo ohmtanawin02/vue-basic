@@ -1,7 +1,11 @@
 <template>
-  <HelloWorld />
+  <div> </div>
 </template>
 
-<script setup>
-import HelloWorld from '@/components/HelloWorld.vue'
+<script>
+export default {
+  created() {
+    this.$router.replace({ name: 'ProductCategoriesList' })
+  }
+}
 </script>

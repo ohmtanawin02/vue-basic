@@ -1,17 +1,14 @@
-import dayjs from "dayjs"
+import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
 
 dayjs.extend(utc)
 dayjs.extend(customParseFormat)
 
-export function toDate (date, {
-  endOf = null,
-  startOf = null,
-  now = false,
-  move = { value: 0, type: null },
-  utc = false
-} = {}) {
+export function toDate(
+  date,
+  { endOf = null, startOf = null, now = false, move = { value: 0, type: null }, utc = false } = {}
+) {
   if (!date) {
     return null
   }
@@ -29,7 +26,10 @@ export function toDate (date, {
     dateVal = dayjs(dateVal).startOf(startOf)
   } else if (now) {
     const current = dayjs()
-    dateVal = dayjs(dateVal).set('hour', current.get('hour')).set('minute', current.get('minute')).set('second', current.get('second'))
+    dateVal = dayjs(dateVal)
+      .set('hour', current.get('hour'))
+      .set('minute', current.get('minute'))
+      .set('second', current.get('second'))
   }
 
   const isMove = move && move?.value !== 0 && isValidType(move.type)
@@ -44,11 +44,10 @@ export function toDate (date, {
   return result
 }
 
-export function toDateFormat (date, {
-  plain = false,
-  utc = false,
-  tz = 'Asia/Bangkok',
-  format = 'YYYY/MM/DD' } = {}) {
+export function toDateFormat(
+  date,
+  { plain = false, utc = false, tz = 'Asia/Bangkok', format = 'YYYY/MM/DD' } = {}
+) {
   if (!date) {
     return '-'
   }
@@ -58,14 +57,12 @@ export function toDateFormat (date, {
   }
 
   const dateString = this.toDate(date, {
-    utc: !plain
-      ? utc
-      : false
+    utc: !plain ? utc : false
   })
   return dayjs(dateString).format(format)
 }
 
-export function toNumber (number, initialValue) {
+export function toNumber(number, initialValue) {
   let value = Number(number)
   if (Number.isNaN(value) || !value) {
     return initialValue || 0
@@ -73,7 +70,7 @@ export function toNumber (number, initialValue) {
   return value
 }
 
-export function commaStringToNumber (number) {
+export function commaStringToNumber(number) {
   if (!number) {
     return 0
   }
@@ -82,9 +79,7 @@ export function commaStringToNumber (number) {
     return number
   }
 
-  let result = typeof number === 'string'
-    ? number.replaceAll(',', '')
-    : number
+  let result = typeof number === 'string' ? number.replaceAll(',', '') : number
   return this.toNumber(result)
 }
 

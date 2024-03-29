@@ -5,8 +5,8 @@
  */
 
 
-import { VDataTable } from 'vuetify/labs/VDataTable'
 import { VBtn } from 'vuetify/components/VBtn'
+import { VDataTable } from 'vuetify/labs/VDataTable'
 import { VDatePicker } from 'vuetify/labs/VDatePicker'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'

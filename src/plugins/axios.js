@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'
 
 export default {
   install: (app, options) => {
@@ -7,7 +7,7 @@ export default {
       baseURL: options.baseUrl,
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': options.token ? `Bearer ${options.token}` : ''
+        Authorization: options.token ? `Bearer ${options.token}` : ''
       }
     })
     app.config.globalProperties.$axios = createAxios
