@@ -1,8 +1,7 @@
 <template>
   <div class="main-container">
     <TitleGlobal
-      title="Product category"
-      :back-to="{ name: 'ProductCategory' }">
+      title="Product category">
       <v-spacer />
       <v-btn-create
         :to="{ name: 'ProductCategoryCreate' }"
@@ -46,7 +45,7 @@ export default {
     return {
       headers: [
         {
-          title: 'Product Category',
+          title: 'Name',
           key: 'name'
         }
       ],

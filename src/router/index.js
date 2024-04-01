@@ -3,8 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ProductCategory from './modules/product-category'
 import { getAuthDecode } from '@/utils/auth'
 import Auth from './modules/auth'
+import Product from './modules/product'
 // import ProductMock from './modules/product-mock'
-// import Auth from './modules/auth'
 
 const routes = [
   {
@@ -13,6 +13,7 @@ const routes = [
     component: Home
   },
   Auth,
+  Product,
   ProductCategory,
   {
     path: '/:pathMatch(.*)*',

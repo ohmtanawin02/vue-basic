@@ -3,8 +3,9 @@
     <v-form
       ref="form"
       @submit.prevent="submit">
-      <div>Product category</div>
-      <!-- make component title bar -->
+      <TitleGlobal
+        title="Product category"
+        :back-to="{ name: 'ProductCategoriesList'}" />
       <div class="d-flex flex-column gap-6">
         <div class="card-container">
           <div class="card-container__title">Product Category</div>
@@ -44,12 +45,13 @@
 <script>
 import ProductCategoryProvider from '@/resources/provider/product-category-provider'
 import { snackbarStore } from '@/store/snackbar'
+import TitleGlobal from '@/components/TitleGlobal.vue'
 
 const ProductCategoryService = new ProductCategoryProvider()
 
 export default {
   name: 'ProductCategoryCreate',
-  components: {},
+  components: {TitleGlobal},
   setup: () => ({
     SnackbarStore: snackbarStore()
   }),
